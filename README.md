@@ -25,14 +25,15 @@ These instructions will get you a copy of the project up and running on your loc
         ** ** cmd:mysql -u root -p
    #### To create database
      ** ** cmd: create database databasename;
-     ** ** cmd:use database# to enter into our database
-     ** ** cmd:show tables; to show tables in database
-     ** ** cmd:select * from table tablename; to see data in tables
+     ** ** cmd:use database; # To enter into our database
+     ** ** cmd:show tables;  # To show tables in database
+     ** ** cmd:select * from table tablename;# To see data in tables
   
    #### To create tables in database:
      ** **  cmd :python manage.py mkaemigrations
      ** **  cmd:python manage.py migrtae
-  #### To push the data into database:
+ 
+ #### To push the data into database:
      ** **  cmd:python pythonfilename.py(python db.py)
      
   #### To check in the webserver
